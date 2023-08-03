@@ -15,13 +15,13 @@ import {
   SiMysql,
   SiNextdotjs as SiNextJs,
   SiNodedotjs as SiNodeJs,
-  SiNpm,
   SiOracle,
   SiReact,
   SiStyledcomponents as SiStyledComponents,
   SiSupabase,
   SiTailwindcss as SiTailwindCSS,
   SiTypescript,
+  SiWordpress,
 } from "react-icons/si"
 
 import ProjectsCard from "@/components/ProjectsCard"
@@ -79,7 +79,7 @@ const Home = () => {
           <TechItem icon={SiOracle} name="Oracle" />
           <TechItem icon={SiFirebase} name="Firebase" />
           <TechItem icon={SiSupabase} name="Supabase" />
-          <TechItem icon={SiNpm} name="Npm" />
+          <TechItem icon={SiWordpress} name="Wordpress" />
           <TechItem icon={SiAdobephotoshop} name="Adobe photoshop" />
         </div>
       </div>

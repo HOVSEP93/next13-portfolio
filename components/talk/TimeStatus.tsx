@@ -23,7 +23,7 @@ const TimeStatus = () => {
       It&apos;s currently <span className="font-semibold ">{time}</span> for me,
       so I&apos;m probably{" "}
       <span className="font-semibold text-violet-500">
-        {awake ? "awake 🙋‍♂️" : "sleeping 💤"}
+        {awake ? "awake 👨‍💻" : "sleeping 💤"}
       </span>
       . I&apos;ll get back to you soon.
     </p>

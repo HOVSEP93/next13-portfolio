@@ -1,16 +1,10 @@
-import { IconType } from "react-icons"
-
+import { TechProps } from "@/types/techProps"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-
-interface TechProps {
-  name: string
-  icon: IconType
-}
 
 export const TechItem = ({ name, icon }: TechProps) => {
   return (
