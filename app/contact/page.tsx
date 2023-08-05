@@ -1,10 +1,6 @@
-"use-client"
-
 // import MessageComponent from "@/components/talk/MessageComponent"
 import ContactLink from "@/components/talk/ContactLink"
 import TimeStatus from "@/components/talk/TimeStatus"
-
-import animateContact from "../../public/contact-animate.json"
 
 const Talk = () => {
   return (
