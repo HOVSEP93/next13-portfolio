@@ -1,6 +1,10 @@
+"use-client"
+
+// import MessageComponent from "@/components/talk/MessageComponent"
 import ContactLink from "@/components/talk/ContactLink"
-import MessageComponent from "@/components/talk/MessageComponent"
 import TimeStatus from "@/components/talk/TimeStatus"
+
+import animateContact from "../../public/contact-animate.json"
 
 const Talk = () => {
   return (
@@ -17,7 +21,7 @@ const Talk = () => {
         <TimeStatus />
 
         <div className="mb-20 grid grid-cols-1  md:grid-cols-3 md:gap-4">
-          <MessageComponent />
+          {/* <MessageComponent /> */}
 
           <div className="row-start-1 md:row-auto">
             <ContactLink />
